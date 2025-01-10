@@ -1,0 +1,39 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+@keyframes fadeIn {
+    50% {
+        opacity: 0;
+        width:  0;
+    }
+    100% {
+        opacity: 1;
+        width: 100%;
+    }
+    
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #1b1b1b;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    animation: fadeIn 0.5s ease-in-out;
+}

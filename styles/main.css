@@ -1,0 +1,244 @@
+.main {
+  margin-top: 700px;
+}
+
+.section__one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.section__one__title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  width: 600px;
+  height: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section__one__text {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: bold;
+  color: #fff;
+  width: 600px;
+  height: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+}
+
+.section__one__img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.section__one__img img {
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+.section__two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.section__two__title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  width: 600px;
+  height: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section__two details {
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-weight: bold;
+  color: #fff;
+  width: 600px;
+  height: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+}
+
+.section__two summary {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section__three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  gap: 40px;
+}
+
+.section__three__title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  width: 600px;
+  height: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section__three__img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 600px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.section__three__img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.dialog__one {
+  height: 500px;
+  width: 100xp;
+}
+
+.dialog__one button {
+  margin-left: 1500px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 100px;
+}
+
+.dialog__one button:hover {
+  background-color: #0077ff;
+  color: #fff;
+}
+
+.dialog__one img {
+  margin-left: 200px;
+  width: 1000px;
+  height: 300px;
+  margin-right: 50px;
+}
+
+.dialog__one p {
+  margin-top: 100px;
+  margin-left: 270px;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 600px;
+  height: 10px;
+}
+
+.section__four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  height: 700px;
+}
+
+.section__four__title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  width: 600px;
+  height: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section__four form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 600px;
+  height: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section__four input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+}
+
+.section__four input:focus {
+  outline: none;
+  border: 2px solid #0077ff;
+}
+
+.section__four input:invalid {
+  border: 2px solid red;
+}
+
+.section__four input:valid {
+  border: 2px solid #0077ff;
+}
+
+.section__four textarea {
+  width: 100%;
+  resize: none;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.section__four textarea:focus {
+  outline: none;
+  border: 2px solid #0077ff;
+}
+
+.section__four textarea:invalid {
+  border: 2px solid red;
+}
+
+.section__four textarea:valid {
+  border: 2px solid #0077ff;
+}
+
+.section__four button {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 100px;
+}
+
+.section__four button:hover {
+  background-color: #0077ff;
+  color: #fff;
+}
